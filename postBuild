@@ -1,0 +1,6 @@
+jupyter contrib nbextension install --sys-prefix
+jupyter nbextension enable hide_input_all/main
+jupyter nbextension enable hide_input/main
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyterlab-plotly@4.14.3
+jupyter serverextension enable --py nbgitpuller --sys-prefix
